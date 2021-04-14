@@ -1,0 +1,29 @@
+{
+    "name": "verdient/selva",
+    "description": "Selva API SDK",
+    "type": "library",
+    "keywords": ["Selva", "API", "SDK"],
+    "homepage": "https://github.com/Verdient/selva",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verdient.",
+            "email": "fagui.zhu@foxmail.com",
+            "homepage": "https://github.com/Verdient"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Verdient/selva/issues",
+        "source": "https://github.com/Verdient/selva"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "verdient/chorus": ">=0.0.6",
+        "verdient/http": "^0.3",
+        "verdient/signature": "^0.0.1",
+        "tuupola/base62": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {"Verdient\\Selva\\": "src"}
+    }
+}
